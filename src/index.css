@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "teko", sans-serif;
+  background: rgba(65, 123, 169, 1);
+  color: rgba(93, 62, 68, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  background: #0f0f10;
+}
+
+.light {
+  background: rgba(65, 123, 169, 1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(103% + 1.3px);
+  height: 262px;
+}
+
+.wave .shape-fill-dark {
+  fill: hsl(240, 3%, 6%);
+}
+
+.wave .shape-fill-light {
+  fill: hsl(207, 44.4%, 45.9%)
+}
