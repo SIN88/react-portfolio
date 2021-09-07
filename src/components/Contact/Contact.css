@@ -1,5 +1,6 @@
-contact {
-    color: rgba(252,241,243,1);
+.contact {
+   /* color: rgba(252,241,243,1);
     text-align: center;
-    background-color: #0f0f10;
+    background-color: #0f0f10;*/
+    z-index:100 ;
 }

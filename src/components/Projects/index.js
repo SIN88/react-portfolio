@@ -1,14 +1,15 @@
-
-const Projectslist = () => {
-    return       <div className="shadow-lg  p-2 mb-2 bg rounded">
+import './Projects.css'
+const Projects = () => {
+    return       <div className="projects shadow-lg  p-2 mb-2 bg rounded">
     <h1>Projects</h1>
-    <ul>1</ul>
-    <ul>2</ul>
-    <ul>3</ul>
+
+    <a href="https://github.com/SIN88/ufc-2.git"> Project 1 </a>
+    <a href="https://project2nrk.herokuapp.com/">Project 2</a>
+    
        
     
   </div>
  
 } 
 
-export default Projectslist;
+export default Projects;
