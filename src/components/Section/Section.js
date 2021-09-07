@@ -1,4 +1,5 @@
 import './Section.css'
+
 const Section = ({title, light}) => {
     return <section className={light ? "light": "dark"}>
     <h1>About Me</h1>
@@ -9,5 +10,4 @@ const Section = ({title, light}) => {
     </p>
   </section>
 }
-
 export default Section;

@@ -1,5 +1,6 @@
 import Section from "./components/Section/Section";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -69,7 +70,9 @@ function App() {
             </svg>
           </div>
         </section>
+        
       </main>
+      <Footer footing={"Made with ☕"} />
     </>
   );
 }
