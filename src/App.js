@@ -4,11 +4,15 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Wave from "./components/Wave";
 import Wave2 from "./components/Wave2";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+
 
 function App() {
   return (
     <>
       <Header heading={"Kevin Giron"} />
+      
       <main>
         {/* <Section light title={'About Me'} />
         <Section />
@@ -37,20 +41,15 @@ function App() {
          </section>
 
         <section className="light">
-          <h1>Nice Curves!</h1>
-          <p>
-            under contact
-          </p>
+          <Projects/>
 
          <Wave2/>
         </section>
         
        
         <section className="dark">
-          <h1>Nice Curves!</h1>
-          <p>
-           this is dark and straight 
-          </p>
+         <Skills/>
+         
           <Wave/>
         </section>
 
