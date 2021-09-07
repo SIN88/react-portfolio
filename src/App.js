@@ -1,6 +1,8 @@
 import Section from "./components/Section/Section";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+
 function App() {
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
           </p>
         </section> */}
         <Section light/>
+        
 
         <section className="dark">
           <h1>Nice Curves!</h1>
@@ -70,7 +73,7 @@ function App() {
             </svg>
           </div>
         </section>
-        
+       
       </main>
       <Footer footing={"Made with ☕"} />
     </>
