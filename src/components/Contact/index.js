@@ -1,7 +1,7 @@
 import './Contact.css'
 const Contact = () => {
     return       <div className="contact shadow-lg  p-2 mb-2 bg rounded">
-    <h1>Contact Me</h1>
+    <h1 id="Contact">Contact Me</h1>
     
         <a href="https://www.linkedin.com/in/kevin-giron-869598202/ ">Linkedin</a>
         <a href="mailto:kg19882020@gmail.com ">Email Me</a>

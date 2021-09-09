@@ -18,11 +18,11 @@ const MyNav  =() => {
       <Nav.Link href="#Contact">Contact</Nav.Link>
       <Nav.Link href="#Skills">Skills</Nav.Link>
       <NavDropdown title="Projects" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#Project1">Project1</NavDropdown.Item>
-        <NavDropdown.Item href="#Project2">Project2</NavDropdown.Item>
+        <NavDropdown.Item href="#Projects">Project1</NavDropdown.Item>
+        <NavDropdown.Item href="#Projects">Project2</NavDropdown.Item>
         <NavDropdown.Item href="#WorkingApps">Working App</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+        
+        
       </NavDropdown>
     </Nav>
     <Nav>
