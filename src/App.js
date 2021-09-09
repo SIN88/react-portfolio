@@ -6,6 +6,7 @@ import Wave from "./components/Wave";
 import Wave2 from "./components/Wave2";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header heading={"Kevin Giron"} />
       
       <main>
+        <Navbar/>
         {/* <Section light title={'About Me'} />
         <Section />
         <Section light />
