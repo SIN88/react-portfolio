@@ -1,7 +1,9 @@
 const Skills=()=>{
     return  <>
 <h1 id ="Skills">Skills</h1>
-<h2>Front-end Proficiencies</h2>
+
+          <h2>Front-end Proficiencies</h2>
+          
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -10,7 +12,7 @@ const Skills=()=>{
           <li>React</li>
           <li>Bootstrap</li>
 
-          <h2>Back-end Proficiencies</h2>
+          <h3>Back-end Proficiencies</h3>
         
           <li>APIs</li>
           <li>Node</li>
