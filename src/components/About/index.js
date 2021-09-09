@@ -2,7 +2,7 @@ import './About.css'
 
 const About  =() => {
     return <>
-    <h1>About Me</h1>
+    <h1 id="About">About Me</h1>
     <img src="/images/profilepic.jpg" alt=""/>
     <p>
      Greetings!!! My name is Kevin. I am a web developer in Huntington Harbour, California.
