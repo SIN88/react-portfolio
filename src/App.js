@@ -56,7 +56,7 @@ function App() {
         </section>
 
         <section className="light">
-          <h1>Nice !</h1>
+          <h1></h1>
           <p>
             
           </p>
