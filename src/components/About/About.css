@@ -1,4 +1,4 @@
-section {
+  section {
     position: relative;
     text-align: center;
     padding-top: 100px;
@@ -9,7 +9,8 @@ section {
 }
 
 img{
-    height: 500px;
+    height: 400px;
+    
 }
 
 

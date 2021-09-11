@@ -56,9 +56,9 @@ function App() {
         </section>
 
         <section className="light">
-          <h1>Nice Curves!</h1>
+          <h1>Nice !</h1>
           <p>
-            heyheyhey
+            
           </p>
 
           <Wave2/>
