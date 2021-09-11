@@ -1,25 +1,37 @@
 import './Projects.css'
+import game from"../../Images/game.gif";
+import ufc from"../../Images/ufcpage.gif";
 const Projects = () => {
     return       <div className="projects shadow-lg  p-2 mb-2 bg rounded">
+      
     <h1 id="Projects">Projects</h1>
 
-    <a href="https://github.com/SIN88/ufc-2"> Project 1 </a>
+    {/*<a href="https://github.com/SIN88/ufc-2"> Project 1 </a>*/}
 
 
-    <div class="card" style="width: 18rem;">
-  {/*<img src="..." class="card-img-top" alt="...">*/}
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+    <div className="card">
+  <img src={ufc} className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <p className="card-text"><a href="https://github.com/SIN88/ufc-2"> UFC Springtime Sports </a>
+    This is a simple app that lets you look up ufc rankings,stats, it uses an API KEY to bring in information.</p></div>
 </div>
 
 
-    <a href="https://project2nrk.herokuapp.com/">Project 2</a>
+    {/*<a href="https://project2nrk.herokuapp.com/">NRK</a>*/}
+    <div className="card">
+  <img src={game} className="card-img-top" alt="..."></img>
+  <div className="card-body">
+    <p className="card-text"><a href="https://project2nrk.herokuapp.com/">NRK</a> This application is a game built with Phaser.
+                         It has alternating platforms with different levels of difficulty, a login page, and a high score keeper .</p>
+  </div>
+  </div>
+  </div>
+
     
        
     
-  </div>
+  
  
-} 
+}
 
 export default Projects;
