@@ -1,6 +1,8 @@
 import './About.css';
 import profilePic from"../../Images/profilePic.jpg"
 import { Image } from 'react-bootstrap';
+import Footer from '../Footer/index';
+
 
 //import imageName from '../../assets/images/imageName.jpg';
    
@@ -22,6 +24,8 @@ const About  =() => {
      Looking implement and grow my newly aquired skills.
      
     </p>
-  </>
+    
+   <Footer/>
+   </>
 }
 export default About;

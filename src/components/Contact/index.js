@@ -1,4 +1,6 @@
 import './Contact.css'
+import Footer from '../Footer/index';
+
 const Contact = () => {
     return       <div className="contact shadow-lg  p-2 mb-2 bg rounded">
     <h1 id="Contact">Contact Me</h1>
@@ -7,7 +9,7 @@ const Contact = () => {
         <a href="mailto:kg19882020@gmail.com ">Email Me</a>
         <a href="https://github.com/SIN88">Github</a>
         <a href="https://docs.google.com/document/d/1ZiiF6Km2QSeGXlfyquxQZxPj-fUiMzGQsHq6b9zvtJE/edit?usp=sharing">Resume</a>
-    
+        <Footer/>
   </div>
  
 } 
