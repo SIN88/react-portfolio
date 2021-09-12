@@ -26,10 +26,10 @@ import {
 
         <Navbar>
           <ul>
-            <li>
+            {/* <li>
               <Link to="/Home">🤖</Link>
             </li>
-          
+           */}
             <li>
               <Link to="/About">About</Link>
             </li>
