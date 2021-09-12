@@ -6,7 +6,8 @@ import Wave from "./components/Wave";
 import Wave2 from "./components/Wave2";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Apps from "./components/Apps";
 
 
 function App() {
@@ -56,10 +57,7 @@ function App() {
         </section>
 
         <section className="light">
-          <h1>Apps</h1>
-          <p>
-            
-          </p>
+          <Apps/>
 
           <Wave2/>
         </section>
