@@ -13,7 +13,7 @@ const Projects = () => {
 
 
     <div className="card">
-  <Image src={ufc} className="card-img-top" alt="..."/>
+  <Image src={ufc} fluid className="card-img-top" alt="..."/>
   <div className="card-body">
     <p className="card-text"><a href="https://github.com/SIN88/ufc-2"> UFC Springtime Sports </a>
     This is a simple app that lets you look up ufc rankings,stats, it uses an API KEY to bring in information.</p></div>
