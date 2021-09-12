@@ -21,6 +21,7 @@ import {
   return (
     <Router>
       <div>
+        <Wave />
       <Header heading={"Kevin Giron"} />
 
         <Navbar>
