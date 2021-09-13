@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Wave from "./components/Wave";
 import Wave2 from "./components/Wave2";
@@ -21,7 +21,8 @@ import {
   return (
     <Router>
       <div>
-        <Wave />
+        <Wave2/>
+        <Wave/>
       <Header heading={"Kevin Giron"} />
 
         <Navbar>
@@ -31,7 +32,7 @@ import {
             </li>
            */}
             <li>
-              <Link to="/About"><Wave2/>About<Wave/></Link>
+              <Link to="/About">About</Link>
             </li>
             <li>
               <Link to="/Contact">Contact</Link>
@@ -69,7 +70,7 @@ import {
           {/* </Route> */}
           <Route  exact   path="/Projects"  render={() => <Projects />}/>
           <Route  exact   path="/Apps"  render={() => <Apps />}/>
-
+          <Route  exact   path="/"  render={() => <About />}/>
         </Switch>
       </div>
       

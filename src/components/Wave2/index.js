@@ -1,3 +1,6 @@
+import "./wave2.css"
+
+
 const Wave2=()=>{
 return(
 
