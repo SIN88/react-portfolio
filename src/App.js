@@ -53,6 +53,7 @@ import {
             renders the first one that matches the current URL. */}
         <Switch>
         {/* <section className="light"> */}
+        <Route  exact   path="/"  component={About}/>
         <Route  exact   path="/About"  component={About}/>
         {/* </section> */}
         {/* <Route path="/about" ={About} /> */}
@@ -70,7 +71,7 @@ import {
           {/* </Route> */}
           <Route  exact   path="/Projects"  component={Projects}/>
           <Route  exact   path="/Apps"  component={Apps }/>
-          <Route  exact   path="/"  component={About}/>
+          
         </Switch>
       </div>
       
