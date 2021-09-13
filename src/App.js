@@ -31,7 +31,7 @@ import {
             </li>
            */}
             <li>
-              <Link to="/About">About</Link>
+              <Link to="/About"><Wave2/>About<Wave/></Link>
             </li>
             <li>
               <Link to="/Contact">Contact</Link>
@@ -72,6 +72,7 @@ import {
 
         </Switch>
       </div>
+      
     </Router>
     
   );
