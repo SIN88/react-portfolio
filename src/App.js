@@ -21,7 +21,7 @@ import {
   return (
     <Router>
       <div>
-        <Wave2/>
+        
         <Wave/>
       <Header heading={"Kevin Giron"} />
 
