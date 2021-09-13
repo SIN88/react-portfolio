@@ -11,7 +11,7 @@ import Apps from "./components/Apps";
 // import Home from "./components/Home"
 import React from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -53,24 +53,24 @@ import {
             renders the first one that matches the current URL. */}
         <Switch>
         {/* <section className="light"> */}
-        <Route  exact   path="/About"  render={() => <About />}/>
+        <Route  exact   path="/About"  component={About}/>
         {/* </section> */}
         {/* <Route path="/about" ={About} /> */}
           {/* <Route path="/About"> */}
             {/* <About /> */}
           {/* </Route> */}
           {/* <Route path="/Contact"> */}
-          <Route  exact   path="/Contact"  render={() => <Contact />}/>
+          <Route  exact   path="/Contact"  component={Contact}/>
             {/* <Contact /> */}
           {/* </Route> */}
-          <Route  exact   path="/Skills"  render={() => <Skills />}/>
+          <Route  exact   path="/Skills"  component={Skills}/>
 
           {/* <Route path="/Skills"> */}
             {/* <Home /> */}
           {/* </Route> */}
-          <Route  exact   path="/Projects"  render={() => <Projects />}/>
-          <Route  exact   path="/Apps"  render={() => <Apps />}/>
-          <Route  exact   path="/"  render={() => <About />}/>
+          <Route  exact   path="/Projects"  component={Projects}/>
+          <Route  exact   path="/Apps"  component={Apps }/>
+          <Route  exact   path="/"  component={About}/>
         </Switch>
       </div>
       
