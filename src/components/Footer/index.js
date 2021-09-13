@@ -1,3 +1,4 @@
+import React from "react";
 import './Footer.css'
 const Footer = ({footing,light}) => {
     return       <footer className="shadow-sm  p-1 mb-1 bg rounded">

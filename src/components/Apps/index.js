@@ -5,7 +5,7 @@ import fitnessTracker from"../../Images/fitnessTracker.jpg";
  import Generator from"../../Images/Generator.gif";
  import Last from"../../Images/Last.jpg";
  import { Image } from 'react-bootstrap';
-
+ import React from "react";
 
 const Apps = () => {
     return       <div className="Apps shadow-lg  p-2 mb-2 bg rounded">

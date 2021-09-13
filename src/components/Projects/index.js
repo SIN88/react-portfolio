@@ -2,6 +2,7 @@ import './Projects.css'
 import game from"../../Images/game.gif";
 import ufc from"../../Images/ufcpage.gif";
 import { Image } from 'react-bootstrap';
+import React from "react";
 
 
 const Projects = () => {

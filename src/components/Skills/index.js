@@ -1,3 +1,5 @@
+import React from "react";
+
 const Skills=()=>{
     return  <>
 <h1 id ="Skills">Skills</h1>

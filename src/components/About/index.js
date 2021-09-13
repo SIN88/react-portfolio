@@ -2,6 +2,7 @@ import './About.css';
 import profilePic from"../../Images/profilePic.jpg"
 import { Image } from 'react-bootstrap';
 import Footer from '../Footer/index';
+import React from "react";
 
 
 //import imageName from '../../assets/images/imageName.jpg';

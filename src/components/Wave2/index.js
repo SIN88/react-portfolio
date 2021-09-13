@@ -1,5 +1,5 @@
 import "./wave2.css"
-
+import React from "react";
 
 const Wave2=()=>{
 return(
