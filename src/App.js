@@ -11,7 +11,7 @@ import Apps from "./components/Apps";
 // import Home from "./components/Home"
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -26,12 +26,12 @@ import {
       <Header heading={"Kevin Giron"} />
 
         <Navbar>
-          <ul>
+          {/* <ul>
             {/* <li>
               <Link to="/Home">🤖</Link>
             </li>
            */}
-            <li>
+            {/* <li>
               <Link to="/About">About</Link>
             </li>
             <li>
@@ -46,7 +46,7 @@ import {
             <li>
               <Link to="/Apps">Apps</Link>
             </li>
-        </ul>
+        </ul> */} 
         </Navbar>
 
         {/* A <Switch> looks through its children <Route>s and
